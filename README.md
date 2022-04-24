@@ -16,7 +16,7 @@ A sample of this structure can be seen in the [testdata](../main/testdata) direc
 
 
 ### Recreating testdata.tar.gz
-The *testdata* folder exceeds the 1000 files limit imposed by github. Hence an archive with the full content of *testdata* is included. To recreate the archive use the command below to merge the split files.
+The *testdata* folder exceeds the 1000 files limit imposed by github. Hence an archive with the full content of *testdata* is included as fragments. To recreate the archive from the fragments, use the command below.
 ```
 cat testdata.tar.gz.?? > testdata.tar.gz
 ```
