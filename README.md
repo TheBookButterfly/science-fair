@@ -11,6 +11,7 @@ The Jupyter Notebook [GenerateMolecules_v2.ipynb](../main/GenerateMolecules_v2.i
 A sample of this structure can be seen in the [testdata](../main/testdata) directory. The full set is available as three fragments of an archive file. See the [Recreating testdata.tar.gz](#recreating-testdatatargz) below on how the original archive can be recreated from the fragments.
 
 #### Step 3:
+[rundeepchem-docker.sh](../main/rundeepchem-docker.sh) is executed to run a docker container with an installation of deepchem. Within the container, the [pdbbind_tf.py](../main/pdbbind_tf.py) is executed to generate a pdb binding affinity model and predit the bindings of the testdata dataset.
 
 
 
