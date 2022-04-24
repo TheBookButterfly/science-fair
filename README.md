@@ -5,8 +5,8 @@ The Jupyter Notebook [GenerateMolecules_v2.ipynb](../main/GenerateMolecules_v2.i
 #### Step 2:
 [convert.sh](../main/convert.sh) program is executed to take the generated molecules in [generated_molecules_deduped.csv](../main/generated-molecules/generated_molecules_deduped.csv) and transform it into a datastructure that *deepchem* can consume. This involves:
   * Converting the SMILE String for each candidate into SDF format using *babel*.
-  * Storing the SMILE String and the SDF file into an unique directory for the candidate as appropriately named files.
-  * Copying the pdb file for the protein (available in [model1.pdb](../main/model1.pdb)) also into the directory as an appropriately named file.
+  * Storing the SMILE String and the SDF file into an unique directory for the candidate in appropriately named files.
+  * Copying the pdb file for the protein (available in [model1.pdb](../main/model1.pdb)) also into the directory in an appropriately named file.
 
 A sample of this structure can be seen in the [testdata](../main/testdata) directory. The full set is available as three fragments of an archive file. See the [Recreating testdata.tar.gz](#recreating-testdatatargz) below on how the original archive can be recreated from the fragments.
 
