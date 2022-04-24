@@ -8,7 +8,7 @@ The Jupyter Notebook [GenerateMolecules_v2.ipynb](../main/GenerateMolecules_v2.i
   * Storing the SMILE String and the SDF file into an unique directory for the candidate with as an appropriately named file.
   * Copying the pdb file for the protein also into the directory as an appropriately named file.
 
-A sample of this structure can be seen in the [testdata](../main/testdata) directory. The full set is available as three fragments of an archive file. See the [Recreating testdata.tar.gz] (#recreating-testdatatargz) below on how the original archive can be recreated from the fragments.
+A sample of this structure can be seen in the [testdata](../main/testdata) directory. The full set is available as three fragments of an archive file. See the [Recreating testdata.tar.gz](#recreating-testdatatargz) below on how the original archive can be recreated from the fragments.
 
 #### Step 3:
 
