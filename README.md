@@ -1,6 +1,6 @@
 ### Procedure
 #### Step 1: 
-The Jupyter Notebook [GenerateMolecules_v2.ipynb](../GenerateMolecules_v2.ipynb) is execute in a Google Collab environment to generate ligand candidates. The ouptut is caputed into a csv file and depuded using excel or similar spreadsheet. The deduped version is available in [generated_molecules_deduped.csv](../generated-molecules/generated_molecules_deduped.csv)
+The Jupyter Notebook [GenerateMolecules_v2.ipynb](../blob/main/GenerateMolecules_v2.ipynb) is execute in a Google Collab environment to generate ligand candidates. The ouptut is caputed into a csv file and depuded using excel or similar spreadsheet. The deduped version is available in [generated_molecules_deduped.csv](../blob/main/generated-molecules/generated_molecules_deduped.csv)
 
 
 
