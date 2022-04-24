@@ -8,7 +8,7 @@ The Jupyter Notebook [GenerateMolecules_v2.ipynb](../main/GenerateMolecules_v2.i
   * Storing the SMILE String and the SDF file into an unique directory for the candidate in appropriately named files.
   * Copying the pdb file for the protein (available in [model1.pdb](../main/model1.pdb)) also into the directory in an appropriately named file.
 
-A sample of this structure can be seen in the [testdata](../main/testdata) directory. The full set is available as three fragments of an archive file. See the [Recreating testdata.tar.gz](#recreating-testdatatargz) below on how the original archive can be recreated from the fragments.
+A sample of this structure can be seen in the [testdata](../main/testdata) directory. The full set is available as three fragments of an archive file. See the [Recreating testdata.tar.gz](#recreating-testdatatargz) section below on how the original archive can be recreated from the fragments.
 
 #### Step 3:
 [rundeepchem-docker.sh](../main/rundeepchem-docker.sh) is executed to run a docker container with an installation of *deepchem*. Within the container, the [pdbbind_tf.py](../main/pdbbind_tf.py) is executed to generate a pdb binding affinity model and predit the bindings of the testdata dataset.
